@@ -120,6 +120,13 @@ class EmployeeResource extends Resource
         ];
     }
 
+    public static function getWidgets(): array
+    {
+        return [
+
+        ];
+    }
+
     public static function getPages(): array
     {
         return [
